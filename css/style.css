@@ -21,7 +21,7 @@
     width: 50px;
     padding: 12px 0;
     cursor: pointer;
-    background: #32465a;
+    background: #0088ff;
     color: #f5f5f5;
 }
 
@@ -47,7 +47,7 @@
     max-width: 340px;
     width: 40%;
     height: 100%;
-    background: #2c3e50;
+    background: linear-gradient(to bottom, rgba(197, 222, 234, 1) 0%, rgba(138, 187, 215, 1) 31%, rgba(6, 109, 171, 1) 100%);
     color: #f5f5f5;
     overflow: hidden;
     position: relative;
@@ -342,10 +342,10 @@
 
 #frame #sidepanel #search input {
     font-family: "proxima-nova", "Source Sans Pro", sans-serif;
+    background: linear-gradient(to bottom, rgba(197, 222, 234, 1) 0%, rgba(138, 187, 215, 1) 31%, rgba(6, 109, 171, 1) 100%);
     padding: 10px 0 10px 46px;
     width: calc(100% - 25px);
     border: none;
-    background: #32465a;
     color: #f5f5f5;
 }
 
@@ -393,11 +393,11 @@
 
 #frame #sidepanel #contacts::-webkit-scrollbar {
     width: 8px;
-    background: #2c3e50;
+    background: #0088ff;
 }
 
 #frame #sidepanel #contacts::-webkit-scrollbar-thumb {
-    background-color: #243140;
+    background-color: #0088ff;
 }
 
 #frame #sidepanel #contacts ul li.contact {
@@ -414,11 +414,11 @@
 }
 
 #frame #sidepanel #contacts ul li.contact:hover {
-    background: #32465a;
+    background: #0088ff;
 }
 
 #frame #sidepanel #contacts ul li.contact.active {
-    background: #32465a;
+    background: #0088ff;
     border-right: 5px solid #435f7a;
 }
 
@@ -575,6 +575,7 @@
 
 #frame .content .messages {
     height: auto;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     min-height: calc(100% - 93px);
     max-height: calc(100% - 93px);
     overflow-y: scroll;
@@ -614,7 +615,7 @@
 }
 
 #frame .content .messages ul li.sent p {
-    background: #435f7a;
+    background: #0088ff;
     color: #f5f5f5;
 }
 
@@ -652,7 +653,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 100;
 }
 
 #frame .content .message-input .wrap {
@@ -700,3 +701,5 @@
 #frame .content .message-input .wrap .attachment:hover {
     opacity: 1;
 }
+
+S
