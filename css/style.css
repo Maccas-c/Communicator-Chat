@@ -4,6 +4,8 @@
         align-items: center;
         justify-content: center;
         background-image: url('Images/tło.jpg');
+        background-attachment: fixed;
+        background-size: cover;
         min-height: 100vh;
         font-family: "proxima-nova", "Source Sans Pro", sans-serif;
         font-size: 1em;
@@ -32,6 +34,7 @@
     min-height: 720px;
     max-height: 1920px;
     background: #E6EAEA;
+    box-shadow: 1px 1px 25px 5px #1566a5b3;
 }
 
 @media screen and (max-width: 360px) {
@@ -701,5 +704,3 @@
 #frame .content .message-input .wrap .attachment:hover {
     opacity: 1;
 }
-
-S
