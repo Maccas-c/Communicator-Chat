@@ -23,7 +23,7 @@
     width: 50px;
     padding: 12px 0;
     cursor: pointer;
-    background: #0088ff;
+    background: #020402;
     color: #f5f5f5;
 }
 
@@ -50,8 +50,8 @@
     max-width: 340px;
     width: 40%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(197, 222, 234, 1) 0%, rgba(138, 187, 215, 1) 31%, rgba(6, 109, 171, 1) 100%);
-    color: #f5f5f5;
+    background: 81A4CD;
+    color: #020402;
     overflow: hidden;
     position: relative;
 }
@@ -345,7 +345,7 @@
 
 #frame #sidepanel #search input {
     font-family: "proxima-nova", "Source Sans Pro", sans-serif;
-    background: linear-gradient(to bottom, rgba(197, 222, 234, 1) 0%, rgba(138, 187, 215, 1) 31%, rgba(6, 109, 171, 1) 100%);
+    background: #8FB8ED;
     padding: 10px 0 10px 46px;
     width: calc(100% - 25px);
     border: none;
@@ -354,7 +354,7 @@
 
 #frame #sidepanel #search input:focus {
     outline: none;
-    background: #435f7a;
+    background: #8FB8ED;
 }
 
 #frame #sidepanel #search input::-webkit-input-placeholder {
@@ -396,11 +396,11 @@
 
 #frame #sidepanel #contacts::-webkit-scrollbar {
     width: 8px;
-    background: #0088ff;
+    background: #020402;
 }
 
 #frame #sidepanel #contacts::-webkit-scrollbar-thumb {
-    background-color: #0088ff;
+    background-color: #020402;
 }
 
 #frame #sidepanel #contacts ul li.contact {
@@ -417,11 +417,11 @@
 }
 
 #frame #sidepanel #contacts ul li.contact:hover {
-    background: #0088ff;
+    background: #63B4D1;
 }
 
 #frame #sidepanel #contacts ul li.contact.active {
-    background: #0088ff;
+    background: #8FB8ED;
     border-right: 5px solid #435f7a;
 }
 
@@ -578,7 +578,7 @@
 
 #frame .content .messages {
     height: auto;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    background: 8FB8ED;
     min-height: calc(100% - 93px);
     max-height: calc(100% - 93px);
     overflow-y: scroll;
@@ -597,7 +597,7 @@
 }
 
 #frame .content .messages::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #8FB8ED;
 }
 
 #frame .content .messages ul li {
@@ -618,7 +618,7 @@
 }
 
 #frame .content .messages ul li.sent p {
-    background: #0088ff;
+    background: #5A7D7C;
     color: #f5f5f5;
 }
 
